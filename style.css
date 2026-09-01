@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #192027;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo
+{
+    height: 50px;
+    width: 120px;
+}
+
+.logo{
+    background-image: url("amazon_logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+  
+  border: 2px solid white;
+}
+
+/**box2**/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin: 8px;
+}
+.add-sec{
+    
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box 3**/
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 36px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    background-color: rgb(197, 154, 46);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/**box4**/
+.flag{
+    background-image: url("flag.jpg");
+    background-size: cover;
+    height: 18px;
+    width : 18px;
+    margin-right: 5px;
+}
+.nav-lang{
+    display: flex;
+}
+.search-lang select {
+    background-color: transparent;
+    border-color: transparent;
+    color: #f3f3f3;
+    font-weight: bold;
+}
+
+/**box 5**/
+span{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+    
+}
+
+/**box 6**/
+.nav-cart i{
+    font-size: 28px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
