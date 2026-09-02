@@ -123,3 +123,46 @@ span{
     font-size: 0.85rem;
     font-weight: bold;
 }
+
+/**Panel**/
+.panel{
+    background-color: #373a52;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin: 18px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-weight: bold;
+}
+
+.hero-section{
+    background-image: url("heropage.jpg") ;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 35px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    width: 95%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #2162A1;
+}
